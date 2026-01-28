@@ -38,12 +38,9 @@ public class Binary
 		// If all digits are '0', ensure number is "0"
 		this.number = (beg == number.length()) ? "0" : number.substring(beg);
 
-		// uncomment the following code
-		/*
 		   if (this.number.isEmpty()) { // replace empty strings with a single zero
 		   this.number = "0";
 		   }
-		   */
 	}
 	/**
 	 * Return the binary value of the variable
@@ -89,6 +86,13 @@ public class Binary
 
 	}
 
+	/**
+	 * Bitwise OR two binary variables.
+	 *
+	 * @param num1 The first operand object
+	 * @param num2 The second operand object
+	 * @return A binary variable with a value of <i>num1||num2</i>.
+	 */
 	public static Binary or(Binary num1, Binary num2){
 		String num3="";
 		int ind1=num1.number.length()-1;
@@ -116,6 +120,13 @@ public class Binary
 		return result;
 	}
 
+	/**
+	 * Bitwise AND binary variables.
+	 *
+	 * @param num1 The first operand object
+	 * @param num2 The second operand object
+	 * @return A binary variable with a value of <i>num1&&num2</i>.
+	 */
 	public static Binary and(Binary num1, Binary num2){
 		String num3="";
 		int ind1=num1.number.length()-1;
@@ -142,6 +153,14 @@ public class Binary
 		Binary result = new Binary(num3);
 		return result;
 	}
+		/**
+	 * Multiplying two binary variables.
+	 *
+	 * @param num1 The first factor object
+	 * @param num2 The second factor object
+	 * @return A binary variable with a value of <i>num1*num2</i>.
+	 */
+
 	public static Binary multiply(Binary num1, Binary num2){
 		String num3="0";
 

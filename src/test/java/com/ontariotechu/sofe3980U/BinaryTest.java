@@ -46,7 +46,7 @@ public class BinaryTest
 		assertTrue( binary.getValue().equals("0"));
 	}
 	/**
-	 * T	est The constructor with a zero tailing valid binary value
+	 * Test The constructor with a zero tailing valid binary value
 	 */
 	@Test
 	public void constructorWithZeroTailing()
@@ -118,6 +118,10 @@ public class BinaryTest
 		Binary binary3=Binary.add(binary1,binary2);
 		assertTrue( binary3.getValue().equals("0"));
 	}
+
+	/**
+	 * Test The or function with two binary numbers of the same length
+	 */
 	@Test
 	public void or1()
 	{
@@ -127,6 +131,9 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("1111"));
 	}
 
+	/**
+	 * Test The or function with two binary numbers of different lengths
+	 */
 	@Test
 	public void or2()
 	{
@@ -136,6 +143,9 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("1011"));
 	}
 
+	/**
+	 * Test The or function with a binary number and zero
+	 */
 	@Test
 	public void or3()
 	{
@@ -145,6 +155,9 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("1010"));
 	}
 
+	/**
+	 * Test The and function with two binary numbers of the same length
+	 */
 	@Test
 	public void and1()
 	{
@@ -154,6 +167,9 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("1000"));
 	}
 
+	/**
+	 * Test The and function with two binary numbers of different lengths
+	 */
 	@Test
 	public void and2()
 	{
@@ -163,6 +179,9 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("10"));
 	}
 
+	/**
+	 * Test The and function with a binary number and zero
+	 */
 	@Test
 	public void and3()
 	{
@@ -172,6 +191,9 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("0"));
 	}
 
+	/**
+	 * Test The multiply function with zero
+	 */
 	@Test
 	public void multiply1()
 	{
@@ -181,6 +203,9 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("0"));
 	}
 
+	/**
+	 * Test The multiply function with one
+	 */
 	@Test
 	public void multiply2()
 	{
@@ -190,6 +215,9 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("1010"));
 	}
 
+	/**
+	 * Test The multiply function with two non-zero binary numbers
+	 */
 	@Test
 	public void multiply3()
 	{
@@ -199,3 +227,4 @@ public class BinaryTest
 		assertTrue(binary3.getValue().equals("1111"));
 	}
 }
+
