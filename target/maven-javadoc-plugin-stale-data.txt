@@ -1,0 +1,44 @@
+@options
+@packages
+--class-path
+'/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/BinaryCalculator-1.0.0.jar:/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/classes:/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/test-classes:/home/shay/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/shay/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/shay/.m2/repository/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/src/test/java:/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/generated-test-sources/test-annotations'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BinaryCalculator 1.0.0 Test API'
+-link
+'../apidocs'
+-use
+-version
+-windowtitle
+'BinaryCalculator 1.0.0 Test API'
+com.ontariotechu.sofe3980U
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/src/test/java = 1769035858566
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/generated-test-sources/test-annotations = 1769038030219
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/help-doc.html = 1769038034129
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/element-list = 1769038034096
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/search.html = 1769038034127
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/module-search-index.js = 1769038034119
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/allpackages-index.html = 1769038034119
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/allclasses-index.html = 1769038034117
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/member-search-index.js = 1769038034120
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/overview-tree.html = 1769038034111
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/package-search-index.js = 1769038034120
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/tag-search-index.js = 1769038034120
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/index-all.html = 1769038034126
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/type-search-index.js = 1769038034120
+/home/shay/github/school/SOFE3980U/Lab1/Project/newproj/BinaryCalculator/target/site/testapidocs/index.html = 1769038034128
