@@ -91,7 +91,7 @@ public class Binary
 	 *
 	 * @param num1 The first operand object
 	 * @param num2 The second operand object
-	 * @return A binary variable with a value of <i>num1||num2</i>.
+	 * @return A binary variable with a value of <i>num1 OR num2</i>.
 	 */
 	public static Binary or(Binary num1, Binary num2){
 		String num3="";
@@ -125,7 +125,7 @@ public class Binary
 	 *
 	 * @param num1 The first operand object
 	 * @param num2 The second operand object
-	 * @return A binary variable with a value of <i>num1&&num2</i>.
+	 * @return A binary variable with a value of <i>num1 AND num2</i>.
 	 */
 	public static Binary and(Binary num1, Binary num2){
 		String num3="";
